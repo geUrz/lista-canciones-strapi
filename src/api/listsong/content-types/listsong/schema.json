@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listsongs",
+  "info": {
+    "singularName": "listsong",
+    "pluralName": "listsongs",
+    "displayName": "listsong"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titlesong": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
